@@ -18,3 +18,6 @@ md..\..\..\..\3_eval\teoriaa ..\..\..\..\3_eval\teoriab
 cd C:\iso -> md 2_eval
 ```
 <img width="812" height="526" alt="image" src="https://github.com/user-attachments/assets/fc7b9baa-d50c-4c0a-b529-32c45a1234df" />
+
+#4 Sitúate en el directorio 2_eval. Crea los directorios (prac1, prac2, prac3) con una única sentencia.
+
