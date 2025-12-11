@@ -21,3 +21,13 @@ cd C:\iso -> md 2_eval
 
 #4 Sitúate en el directorio 2_eval. Crea los directorios (prac1, prac2, prac3) con una única sentencia.
 
+```
+cd C:\iso -> cd 2_eval -> md prac1 prac2 prac3
+```
+<img width="430" height="95" alt="image" src="https://github.com/user-attachments/assets/35549f14-fcea-4684-8a68-42b1f57b2958" />
+
+5.- Sitúate en el directorio prac3. Crea los directorios (prac31, prac311) usando trayectorias relativas.
+```
+cd C:\iso -> cd 2_eval -> cd prac3 -> md prac31 prac311
+```
+6.- Accede al directorio iso usando trayectoria absoluta con una única sentencia.
