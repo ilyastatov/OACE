@@ -1,1 +1,4 @@
-
+# 0.- Cambia el prompt a tu primera inicial del nombre y tu apellido
+```
+prompt Ilya $p^>
+```
