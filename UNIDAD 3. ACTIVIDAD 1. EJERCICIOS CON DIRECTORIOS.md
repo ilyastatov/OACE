@@ -64,13 +64,16 @@ c:\iso\2_eval>
 
 <img width="478" height="257" alt="image" src="https://github.com/user-attachments/assets/3424b8b9-380c-4592-9bb2-5b07796f9e87" />
 
+
 9.- Desde aquí cambia el nombre del directorio prac1 por el de prac4.
 
 ```
 c:\iso\2_eval>rename prac1 prac4
 ```
 <img width="478" height="257" alt="image" src="https://github.com/user-attachments/assets/7265f44c-4e27-4f42-9990-fb52559c8d64" />
+
 10.- Desde aquí sitúa el directorio prac4 dentro del directorio prac3.
+
 ```
 c:\iso\2_eval>move prac2 prac4
 ```
