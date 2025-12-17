@@ -44,3 +44,56 @@ C:\smm\A\A2\A22\A221>echo Statov > c:\smm\D\Apellido.tx
 
 # 6.- Genera un fichero llamado union.txt en D que contenga el contenido de Nombre.txt y Apellido.txt
 ```
+C:\smm\D>type nombre.txt >> union.txt
+
+C:\smm\D>type apellido.txt >> union.txt
+```
+<img width="658" height="98" alt="image" src="https://github.com/user-attachments/assets/c3f55691-8952-41be-8f30-c1aaaf4f3709" />
+
+# 7.- Mueve el fichero union.txt a A21.
+```
+C:\smm\D>move union.txt ..\A\A2\A21
+```
+<img width="658" height="72" alt="image" src="https://github.com/user-attachments/assets/a9fb3012-01b5-4ed3-aa9d-8729a0a09ad4" />
+
+# 8.- Mueve el directorio A2 dentro de C.
+```
+C:\smm\A>move A2 c:\smm\C
+```
+<img width="658" height="104" alt="image" src="https://github.com/user-attachments/assets/797db25d-1af2-4ec2-8957-eb362d5f4cb7" />
+
+# 9.- Cambia el nombre del fichero union.txt por el de nuevaunion.txt
+```
+C:\smm\C\A2\A21>rename union.txt nuevaunion.txt
+```
+<img width="658" height="130" alt="image" src="https://github.com/user-attachments/assets/5414fae2-b705-4683-8e15-702026231ebc" />
+
+# 10.- Copia el fichero Nombre.txt al directorio A.
+```
+C:\smm\D>copy Nombre.txt ..\A
+```
+<img width="658" height="110" alt="image" src="https://github.com/user-attachments/assets/14a4aec8-753f-4ed0-914d-cfabd137e774" />
+
+# 11.- Elimina el directorio A (sin usar el parámetro /s).
+```
+C:\smm>erase A
+```
+<img width="658" height="71" alt="image" src="https://github.com/user-attachments/assets/e03d9e73-43b8-4632-917b-df1a14e1c0a1" />
+
+# 12.- Cambia el nombre del fichero Apellido.txt por el de miApellido.doc
+```
+C:\smm\D>rename Apellido.txt Apellido.doc
+```
+<img width="658" height="55" alt="image" src="https://github.com/user-attachments/assets/1adbb7b3-74a1-46a2-8109-b93f67783f14" />
+
+# 13.- Cambia el nombre del directorio C por el de nuevoC
+```
+C:\smm>rename C nuevoC
+```
+<img width="427" height="55" alt="image" src="https://github.com/user-attachments/assets/0dc450a7-f6ab-4e76-b5b7-1b4701432ea3" />
+
+# 14.- Copia el fichero lineas.txt a D con el nombre nlineasend.txt
+```
+C:\>copy c:\smm\c\lineas.txt c:\smm\D\nuevolineas.tx
+```
+<img width="539" height="76" alt="image" src="https://github.com/user-attachments/assets/2c7b25e5-173d-45bf-b813-563ded457d20" />
