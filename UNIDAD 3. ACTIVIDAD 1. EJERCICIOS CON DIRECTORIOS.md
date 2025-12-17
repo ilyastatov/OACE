@@ -56,14 +56,19 @@ c:\iso>rd /s c:\iso\2_eval\prac3\prac31
 
 c:\iso\2_eval\prac3\prac31, ¿Está seguro (S/N)? S
 ```
+
 <img width="478" height="836" alt="image" src="https://github.com/user-attachments/assets/2ba86156-d697-4bb0-8fb9-6474f63fad01" />
+
 8.- Accede al directorio 2_eval usando trayectoria relativa con una única sentencia.
+
 ```
 c:\iso\2_eval>
 ```
+
 <img width="478" height="257" alt="image" src="https://github.com/user-attachments/assets/3424b8b9-380c-4592-9bb2-5b07796f9e87" />
 
 9.- Desde aquí cambia el nombre del directorio prac1 por el de prac4.
+
 ```
 c:\iso\2_eval>rename prac1 prac4
 ```
@@ -72,19 +77,27 @@ c:\iso\2_eval>rename prac1 prac4
 ```
 c:\iso\2_eval>move prac2 prac4
 ```
+
 <img width="478" height="212" alt="image" src="https://github.com/user-attachments/assets/2854efa7-175d-4ac3-8e72-d3619e3ab3df" />
+
 11.- Desde aquí elimina los directorios (1_eval, 3_eval)
 ```
 c:\iso\2_eval>rd /s /q c:\iso\1_eval ..\3_eval
 ```
 <img width="478" height="544" alt="image" src="https://github.com/user-attachments/assets/5cf94e33-211e-43bf-a631-a6214068a2e9" />
+
 12.- Ejecuta la orden para visualizar el árbol de directorios y subdirectorios dependientes del directorio iso
+
 ```
 c:\iso\2_eval>tree c:\iso
+
 ```
 <img width="478" height="176" alt="image" src="https://github.com/user-attachments/assets/2eeea3b6-08e0-49b7-aa4e-9ac9c5142492" />
+
 13.- Accede directamente a la raíz (a la unidad en la que te encuentras)
+
 ```
 c:\iso\2_eval>cd\
 ```
+
 <img width="478" height="176" alt="image" src="https://github.com/user-attachments/assets/89613e70-3a00-4af0-9ddf-2d43f823a7c7" />
