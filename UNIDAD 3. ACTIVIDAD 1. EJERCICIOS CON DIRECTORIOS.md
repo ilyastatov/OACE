@@ -62,6 +62,7 @@ c:\iso\2_eval\prac3\prac31, ¿Está seguro (S/N)? S
 c:\iso\2_eval>
 ```
 <img width="478" height="257" alt="image" src="https://github.com/user-attachments/assets/3424b8b9-380c-4592-9bb2-5b07796f9e87" />
+
 9.- Desde aquí cambia el nombre del directorio prac1 por el de prac4.
 ```
 c:\iso\2_eval>rename prac1 prac4
