@@ -19,47 +19,44 @@ cd C:\iso -> md 2_eval
 ```
 <img width="812" height="526" alt="image" src="https://github.com/user-attachments/assets/fc7b9baa-d50c-4c0a-b529-32c45a1234df" />
 
-#4 Sitúate en el directorio 2_eval. Crea los directorios (prac1, prac2, prac3) con una única sentencia.
+# 4 Sitúate en el directorio 2_eval. Crea los directorios (prac1, prac2, prac3) con una única sentencia.
 
 ```
 cd C:\iso -> cd 2_eval -> md prac1 prac2 prac3
 ```
+
 <img width="430" height="95" alt="image" src="https://github.com/user-attachments/assets/35549f14-fcea-4684-8a68-42b1f57b2958" />
 
 5.- Sitúate en el directorio prac3. Crea los directorios (prac31, prac311) usando trayectorias relativas.
+
 ```
 cd C:\iso -> cd 2_eval -> cd prac3 -> md prac31 prac311
 ```
+
 6.- Accede al directorio iso usando trayectoria absoluta con una única sentencia.
+
 ```
 C:\>cd c:\iso
 ```
+
 <img width="144" height="78" alt="image" src="https://github.com/user-attachments/assets/de1caf47-4505-46a2-860e-737133712f6b" />
+
 7.- Desde iso elimina los directorios (prac311, prac31,teoriab, teoriaa, t1, p1b, p1a) utilizando trayectorias absolutas.
 ```
 c:\iso>rd /s c:\iso\1_eval\practica\p1a
 c:\iso>rd /s c:\iso\3_eval\teoriaa
 c:\iso\3_eval\teoriaa, ¿Está seguro (S/N)? S
-
-
 c:\iso>rd /s c:\iso\3_eval\teoriab
-
 c:\iso\3_eval\teoriab, ¿Está seguro (S/N)? S
-
-
 c:\iso>rd /s c:\iso\1_eval\teoria\t1
-
 c:\iso\1_eval\teoria\t1, ¿Está seguro (S/N)? S
-
-
 c:\iso>rd /s c:\iso\2_eval\prac3\prac31
-
 c:\iso\2_eval\prac3\prac31, ¿Está seguro (S/N)? S
 ```
 
 <img width="478" height="836" alt="image" src="https://github.com/user-attachments/assets/2ba86156-d697-4bb0-8fb9-6474f63fad01" />
 
-8.- Accede al directorio 2_eval usando trayectoria relativa con una única sentencia.
+# 8.- Accede al directorio 2_eval usando trayectoria relativa con una única sentencia.
 
 ```
 c:\iso\2_eval>
