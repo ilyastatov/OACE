@@ -3,20 +3,19 @@
 Actividad 1: IPCONFIG
 este comando muestra información de la red
 
-<img width="1105" height="622" alt="image" src="https://github.com/user-attachments/assets/21e25a79-377c-4c41-92b2-2f42a31a0474" />
+
 
 Actividad 2: IPCONFIG /ALL
 muestra información más detallada
 
-<img width="1104" height="622" alt="image" src="https://github.com/user-attachments/assets/3fc9510e-5935-4418-9304-0646c93ccf1d" />
+
 
 Actividad 3: ping a google
 
-<img width="1111" height="620" alt="image" src="https://github.com/user-attachments/assets/3d4bd085-db5a-42f8-a8c1-58c075b35637" />
 
 Actividad 4: ping a google contínuo 
 
-<img width="904" height="693" alt="image" src="https://github.com/user-attachments/assets/b11f79e5-ee08-44b9-abbe-29099e25f14a" />
+
 
 Actividad 5: ¿cómo se para el comando anterior?
 
@@ -24,26 +23,25 @@ Con Ctrl C
 
 Actividad 6: Identifica el nombre de host (nombredelequipo)
 
-<img width="1106" height="619" alt="image" src="https://github.com/user-attachments/assets/be9016c7-7e87-446d-8ea8-698344dc3dc8" />
 
 Actividad 7: ping a 127.0.0.1
 
-<img width="1111" height="621" alt="image" src="https://github.com/user-attachments/assets/0d0542ac-86b5-432f-a853-d75d2fc49ee6" />
+
 
 Actividad 8: ping a hostname
 
-<img width="1110" height="620" alt="image" src="https://github.com/user-attachments/assets/b5502758-4e5e-427e-b30f-c43d987cf458" />
+
 
 Actividad 9: tracert
 es el recorrido que hacen los paquetes desde el ordenador al server de google por los routers
-<img width="1110" height="618" alt="image" src="https://github.com/user-attachments/assets/6e79377c-13dd-440e-9deb-9f6d89491b1d" />
+
 
 Actividad 10: direcciones MAC de adaptadores:
 
-<img width="1118" height="623" alt="image" src="https://github.com/user-attachments/assets/7ba635eb-4993-4c88-8405-e108399d6773" />
+
 
 Actividad 11: comando netstat
-<img width="1109" height="620" alt="image" src="https://github.com/user-attachments/assets/71a64298-f62a-4927-9a70-fccc233882d8" />
+
 
 Actividad 12: Crea la carpeta c:\iso\compartidaTuNombre
 R: MKDIR C:\iso\compartidaIvan
