@@ -84,3 +84,18 @@ Move-Item prac4 prac3
 
 11.- Desde aquí elimina los directorios (1_eval, 3_eval)
 ```
+Remove-Item C:\iso\1_eval
+Remove-Item C:\iso\p1b\3_eval
+```
+<img width="369" height="43" alt="imagen" src="https://github.com/user-attachments/assets/52a8d193-e43d-4294-8cb0-d45f014274ed" />
+12.- Ejecuta la orden para visualizar el árbol de directorios y subdirectorios dependientes del directorio iso
+```
+tree C:\iso /f
+```
+<img width="454" height="191" alt="imagen" src="https://github.com/user-attachments/assets/fdea3930-481b-4ecf-a8fc-dbbf5e55c980" />
+13.- Accede directamente a la raíz (a la unidad en la que te encuentras)
+```
+cd \
+```
+<img width="454" height="191" alt="imagen" src="https://github.com/user-attachments/assets/a0f3d10e-c61b-4d9e-a119-515bcdccb801" />
+
