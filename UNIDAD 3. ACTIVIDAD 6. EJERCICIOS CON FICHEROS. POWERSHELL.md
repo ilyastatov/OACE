@@ -50,3 +50,54 @@ move C:\SMM\D\union.txt C:\SMM\D\A21
 
 8.- Mueve el directorio A2 dentro de C.
 ```
+Move-Item C:\SMM\D\A2 C:\SMM\C
+```
+<img width="322" height="16" alt="imagen" src="https://github.com/user-attachments/assets/28ebcd77-f882-411a-aec1-9c0ab99da061" />
+
+9.- Cambia el nombre del fichero union.txt por el de nuevaunion.txt 
+```
+Rename-Item C:\SMM\C\A2\A21\union.txt nuevaunion.txt
+```
+<img width="848" height="13" alt="imagen" src="https://github.com/user-attachments/assets/4458cb3c-1e06-4dc3-acf4-acee6167bcc6" />
+
+10.- Copia el fichero Nombre.txt al directorio A.
+```
+Copy-Item C:\SMM\D\Nombre.txt C:\SMM\A
+```
+Copy-Item C:\SMM\D\Nombre.txt C:\SMM\A
+```
+<img width="848" height="13" alt="imagen" src="https://github.com/user-attachments/assets/ec7826ff-f1a6-4ed3-aa38-6e3e7882787f" />
+
+11.- Elimina el directorio A (sin usar el parámetro /s).
+```
+Remove-Item C:\SMM\A
+```
+<img width="848" height="91" alt="imagen" src="https://github.com/user-attachments/assets/7cf9263e-faa3-4461-ab1a-be8856ac378d" />
+
+12.- Cambia el nombre del fichero Apellido.txt por el de miApellido.doc
+```
+Rename-Item C:\SMM\D\Apellido.txt miApellido.doc
+```
+<img width="848" height="20" alt="imagen" src="https://github.com/user-attachments/assets/b3677c42-b86c-4ac6-95fb-2dfca9536977" />
+
+13.- Cambia el nombre del directorio C por el de nuevoC
+```
+Rename-Item C:\SMM\C nuevoC
+```
+Rename-Item C:\SMM\C nuevoC
+```
+<img width="848" height="19" alt="imagen" src="https://github.com/user-attachments/assets/69a7aa09-0835-44fa-82ff-bfbc9b667c3b" />
+
+14.- Copia el fichero lineas.txt a D con el nombre nlineasend.txt
+```
+Copy-Item C:\SMM\nuevoC\lineas.txt C:\SMM\D\nlineasend.txt
+```
+Copy-Item C:\SMM\nuevoC\lineas.txt C:\SMM\D\nlineasend.txt
+```
+<img width="587" height="20" alt="imagen" src="https://github.com/user-attachments/assets/c91a780e-2747-443f-968c-b971fbe94117" />
+15.- Muestra el árbol de directorios (incluyendo ficheros) que depende del directorio smm.
+```
+tree C:\SMM /f
+```
+<img width="569" height="502" alt="imagen" src="https://github.com/user-attachments/assets/5174a370-1243-404d-be4e-bf79df57612e" />
+
